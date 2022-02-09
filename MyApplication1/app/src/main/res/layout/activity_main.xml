@@ -130,20 +130,15 @@
         android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@drawable/round_corner">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_margin="5dp"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/사람" />
-
-        </LinearLayout>
+        <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/사람" />
 
         <TextView
             android:id="@+id/inside"
@@ -175,20 +170,15 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@drawable/round_corner">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_margin="5dp"
-                android:src="@drawable/사람" />
-
-        </LinearLayout>
+        <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/사람" />
 
         <TextView
             android:id="@+id/outside"
@@ -218,20 +208,15 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@drawable/round_corner">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_margin="5dp"
-                android:src="@drawable/사람" />
-
-        </LinearLayout>
+        <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/사람" />
 
         <TextView
             android:id="@+id/run"
@@ -241,7 +226,7 @@
             android:textSize="15dp"
             android:textColor="@color/white"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:id="@+id/km_3"
